@@ -1,0 +1,131 @@
+.box-one {
+    background-color: #1f2937;
+}
+#header-logo {
+    font-size: 24px;
+    font-family: sans-serif;
+    color: #F9FAF8;
+    margin-left: 2rem;
+}
+.hero-link-text {
+    list-style-type: none;
+    font-size: 18px; 
+    font-family: sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+    margin-top: -50px;
+}
+
+/* The CSS below is used to target all hyperlinks and remove the default blue color and underline*/
+:any-link {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-family: sans-serif;
+    color: #F9FAF8;
+    margin-left: 2rem;
+}
+
+.hero-secondary-text {
+    font-size: 18px; 
+    font-family: sans-serif;
+    color: #E5E7EB;
+    text-align: justify;
+    margin-left: 3rem;
+    margin-right: 22rem;
+    margin-top: -6rem;
+    
+}
+
+.first-image {
+    background-color: aquamarine;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 30rem;
+    margin-right: 3rem;
+}
+
+.button {
+    color: white;
+    background: #3882f6;
+    /*Adjust the border radius of an image/element to round the corners*/
+    border-radius: 15px;
+    margin-left: 3rem;
+}
+
+.box-two-title {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.boxes p {
+    display: flex;
+    flex-direction: row;
+    font-size: 5px;
+    padding-top: 1rem;
+    margin-left: -1rem;
+}
+
+.box-three {
+    background-color: #E5E7EB;
+}
+
+/* Can target elements within a class by first listing the class (.box-three) and then the specific element (p) */
+.box-three p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*Use !important to override the cascade of other commands in CSS*/
+.quote-authour {
+    font-style: normal !important; 
+    font-weight: bold;
+}
+
+.box-four button {
+    display: flex;
+    justify-content: right;
+}
+
+.sign-up-box {
+    background-color: #3882f6;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+#last-button {
+    float: right;
+    margin-right: 20px;
+    margin-top: -40px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
+.placeholder-one {
+    border-color: aquamarine;
+}
